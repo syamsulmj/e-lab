@@ -1,0 +1,20 @@
+.customed-navbar {
+  background: #db2b7c !important;
+  color: #ffffff;
+
+  .navbar-title {
+    font-family: $font-family;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding-bottom: 0;
+    font-weight: 500;
+
+    &:hover {
+      color: #e4e4e4;
+    }
+  }
+
+  .customize-color {
+    color: #ffffff !important;
+  }
+}

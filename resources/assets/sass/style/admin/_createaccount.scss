@@ -1,0 +1,30 @@
+.create-account {
+  .title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    span {
+      font-size: 2rem;
+      font-weight: 500;
+      color: #ffffff;
+
+      &.reminder {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  form {
+    margin-top: 10px;
+    color: #ffffff;
+
+    .button-div {
+      margin-top: 25px;
+      margin-bottom: 25px;
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+
+}

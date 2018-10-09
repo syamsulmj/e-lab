@@ -1,0 +1,33 @@
+.new-report {
+  .title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    span {
+      font-size: 2rem;
+      font-weight: 500;
+      color: #ffffff;
+
+      &.reminder {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .content {
+    color: #ffffff;
+
+    form {
+      margin-bottom: 50px;
+      .form-group {
+        label {
+          font-size: 1.5rem;
+        }
+      }
+
+      .submit-button {
+        width: 100%;
+        margin-top: 25px;
+      }
+    }
+  }
+}

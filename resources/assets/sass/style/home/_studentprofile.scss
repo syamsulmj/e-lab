@@ -1,0 +1,79 @@
+.student-profile {
+  margin-top: 50px;
+  text-align: -webkit-center;
+  text-align: center;
+  .profile-image {
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  .details {
+    margin-top: 50px;
+    width: 100%;
+    form {
+      width: 100%;
+      .row {
+        margin-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
+
+        .col {
+          padding: 0;
+
+          hr {
+            margin: 0;
+            border-top: 2px solid transparent;
+            margin-top: -2px;
+            width: 0;
+            transition: all 0.5s cubic-bezier(0.46, 0.45, 1, 0.28);
+
+            &.on {
+              width: 100%;
+              border-color: #ffffff;
+            }
+          }
+          input {
+            width: 100%;
+            height: 100%;
+            color: #ffffff;
+            font-size: 1.08rem;
+            text-align: center;
+            background: transparent;
+            // border-bottom: 2px solid transparent;
+
+            &.off {
+              border: none;
+            }
+            &.on {
+              border: none;
+              border-radius: 0;
+              // border-bottom: 2px solid #ffffff;
+
+              &::placeholder {
+                color: #e20000 !important;
+                opacity: 1;
+              }
+              &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                 color: #e20000 !important;
+              }
+
+              &::-ms-input-placeholder { /* Microsoft Edge */
+                 color: #e20000 !important;
+              }
+              &:focus {
+                outline: none !important;
+                box-shadow: none !important;
+                // font-size: 1rem;
+                // transition: font-size 1s;
+              }
+            }
+          }
+        }
+        .customed-edit-button {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}

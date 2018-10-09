@@ -1,0 +1,47 @@
+.registered-class {
+  margin-top: 25px;
+  .title {
+    span {
+      font-size: 2rem;
+      color: #ffffff;
+      font-weight: 500;
+    }
+  }
+  .content-div {
+    margin-top: 50px;
+    color: #ffffff;
+    .add-new-class {
+      text-align: right;
+      a {
+        color: #ffffff;
+        font-size: 1.05rem;
+        font-weight: 500;
+      }
+    }
+    .class-list-table {
+      text-align: center;
+      table {
+        thead {
+          background-color: #b3003b;
+          tr {
+            th {
+              border-color: rgba(102, 0, 34, .5) !important;
+            }
+          }
+        }
+        tbody {
+          background-color: #e6004c;
+          tr {
+            td {
+              border-color: rgba(102, 0, 34, .5) !important;
+
+              &:hover {
+                background-color: #990033;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

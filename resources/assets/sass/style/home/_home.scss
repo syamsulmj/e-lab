@@ -1,0 +1,142 @@
+.home-background {
+  background: #f9a7c0;
+}
+
+.home {
+  .user-details-div {
+    padding: 15px 15px;
+    margin: 0 -15px 0;
+    background: #75003c;
+
+    .user-details {
+      display: inline-flex;
+      height: 120px;
+
+      .user-image {
+        width: 125px;
+        border-radius: 5px;
+        border: 1px solid rgba(0,0,0,.125);
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 5px;
+        }
+      }
+
+      .user-info {
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1;
+        font-family: sans-serif;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+
+        .name {
+          height: 50px;
+          margin-bottom: 10px;
+        }
+
+        .matrix-number {
+          height: 25px;
+        }
+      }
+    }
+  }
+
+  .content-div {
+    margin-left: -15px;
+    margin-right: -15px;
+    .content {
+      .menu {
+        background: #ff9bb9;
+        color: rgba(255, 255, 255, 0.85);
+        border-radius: 0;
+        border-color: #ffffff;
+        border-left: none;
+        border-right: none;
+        height: 100px;
+        padding: 1.6em 1.5rem;
+
+        @media screen and (max-width: 376px) {
+          height: 75px;
+          padding: 1.4em 1.5rem;
+        }
+
+        &:hover {
+          background: #75003c !important;
+          color: #ffffff !important;
+          border-color: rgba(255, 255, 255, 0.85);
+        }
+
+        i {
+          margin-right: 50px;
+          font-size: 2rem;
+
+          @media screen and (max-width: 376px) {
+            margin-right: 50px;
+            font-size: 1.7rem;
+          }
+        }
+
+        span {
+          font-size: 2rem;
+
+          @media screen and (max-width: 376px) {
+            font-size: 1.5rem;
+          }
+
+          &.long-text {
+            font-size: 1.8rem;
+
+            @media screen and (max-width: 376px) {
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+
+      .menu-accordion {
+        &.first {
+          background: #48005e !important;
+
+          &:hover {
+            background: #30053d !important;
+          }
+        }
+
+        background: #00aaba;
+        color: rgba(255, 255, 255, 0.85);
+        border-radius: 0;
+        border-color: #ffffff;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+
+        &:hover {
+          background: #005860 !important;
+          color: #ffffff !important;
+          border-color: rgba(255, 255, 255, 0.85);
+        }
+
+        i {
+          margin-right: 50px;
+          font-size: 1.2rem;
+
+          @media screen and (max-width: 376px) {
+            margin-right: 50px;
+            font-size: 1rem;
+          }
+        }
+
+        span {
+          font-size: 1rem;
+
+          @media screen and (max-width: 376px) {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
